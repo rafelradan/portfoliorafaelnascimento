@@ -1,0 +1,120 @@
+:root {
+    --first-color: #232323;
+    --font-color: #fff;
+}
+
+* {
+    list-style: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+/*---------- STARTING  SIZE 01 ----------*/
+@media (max-width: 768px){
+
+   #home {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+   } 
+
+   .title span {
+        text-transform: uppercase;
+
+    }
+
+   .title {
+        margin-top: 2rem;
+   }
+
+
+   .title p {
+       margin-top: -1.5rem;
+   }
+
+   .profile {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 1rem;
+   }
+
+   .profile img {
+       width: 150px;
+       border: solid 3px var(--first-color);
+       border-radius: 50%;
+   }
+
+   .profile span {
+       margin-top: 0.5rem;
+       font-size: 1.2rem;
+       font-weight: 400;
+
+   }
+
+   .bar {
+       width: 230px;
+       border: solid 1px var(--first-color);
+       margin-top: 0.5rem;
+   }
+}
+
+/*---------- STARTING  SIZE 02 ----------*/
+@media (min-width: 768px){
+
+    #home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    } 
+
+    .title span {
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+ 
+    .title {
+         margin-top: 2rem;
+         font-size: 1.5rem;
+    }
+ 
+ 
+    .title p {
+        margin-top: -1.5rem;
+    }
+ 
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+ 
+    .profile img {
+        width: 200px;
+        border: solid 4px var(--first-color);
+        border-radius: 50%;
+    }
+ 
+    .profile span {
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+ 
+    }
+ 
+    .bar {
+        width: 400px;
+        border: solid 1px var(--first-color);
+        margin-top: 0.5rem;
+    }
+ }
+
+ 
