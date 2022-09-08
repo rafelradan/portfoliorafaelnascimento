@@ -71,6 +71,7 @@
     .button:hover {
         background-color: var(--first-color);
         color: var(--font-color);
+        border: solid 1px #fff;
     }
   
 
@@ -136,6 +137,8 @@
     .button:hover {
         background-color: var(--first-color);
         color: var(--font-color);
+        border: solid 1px #fff;
+
     }
   
 
