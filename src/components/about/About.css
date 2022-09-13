@@ -97,6 +97,7 @@
         border-radius: 10px 0px;
     }
 
+
     .stacks p {
         color: #fff;
 
@@ -109,23 +110,24 @@
 @media (max-width: 425PX){
     .about {
         background-color: #0a0a1a;
-        border: solid 1px var(--second-color);
-
+        border: solid 1px #0a0a1a;;
+        height: auto;
+        
     }
     .content {
         display: block;
-        justify-content: space-around;
+        justify-content: center;
         height: 80vh;
+        width: 100%;
 
         padding: 10px;
         margin-top: 20px;
-
-        border: solid 1px rgb(55, 0, 255);
 
     }
 
     .img-content {
         height: 250px;
+        margin-bottom: 2rem;
        
     }
 
@@ -139,13 +141,11 @@
         padding: 0 15px;
         text-align: justify;
         color: #fff;
-        border: solid 1px rgb(3, 202, 69);
-
-
     }
 
     .aboutme h2 {
         font-weight: 800;
+        text-transform: uppercase
     }
 
     .social-media {
@@ -153,6 +153,7 @@
         height: 25px;
         align-items: center;
         justify-content: end;
+        margin-top: 1rem;
 
     }
 
@@ -171,8 +172,6 @@
 
     .stacks {
         height: 60vh;
-        border: solid 1px red;
-
     }
 
     .stacks .title {
@@ -195,6 +194,8 @@
         border: solid 1px rgb(167, 165, 165);
         border-radius: 10px 0px;
     }
+
+   
 
     .stacks p {
         color: #fff;

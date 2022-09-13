@@ -67,23 +67,22 @@
    .profile span {
        margin-top: 0.5rem;
        font-size: 1.2rem;
-       font-weight: 400;
+       font-weight: 600;
 
    }
 
    .bar {
-       width: 230px;
+       width: 100px;
        border: solid 1px var(--first-color);
        margin-top: 0.5rem;
    }
 }
 
 /*---------- STARTING  SIZE 02 ----------*/
-@media (max-width: 767px){
+@media (max-width: 425px){
 
     #home {
         display: flex;
-        flex-direction: column;
         text-align: center;
         align-items: center;
         justify-content: center;
@@ -98,6 +97,7 @@
     .title h1 {
         text-transform: uppercase;
         font-size: 1.8rem;
+        margin: 1rem;
     }
  
     .title {
@@ -137,12 +137,12 @@
     .profile span {
         margin-top: 0.5rem;
         font-size: 1.5rem;
-        font-weight: 400;
+        font-weight: 600;
  
     }
  
     .bar {
-        width: 400px;
+        width: 100px;
         border: solid 1px var(--first-color);
         margin-top: 0.5rem;
     }
