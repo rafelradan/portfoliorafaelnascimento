@@ -1,10 +1,13 @@
 
 .left-side-in-home {
-    visibility: hidden;
+    visibility: visible;
+    width: 350px;
+    text-align: justify;
+    
 }
 
-.bigest {
-    visibility: visible;
-
+a {
+    text-decoration: none;
+    color: black;
 }
 

@@ -14,15 +14,20 @@ export default function Home() {
                 <p>Construindo o futuro com código.</p>
             </div>
 
-            <div className="text">
-                <LeftInHome />
-            </div>
+            <div className="bodyhome">
+                <div className="text">
+                    <LeftInHome />
+                </div>
 
-            <div className="profile">
-                <img  src={PhotoProfile} alt="Photo Profile Rafael Nascimento" />
-                <span>Rafael Nascimento</span>
-                <div className="bar"></div>
+                <div className="profile">
+                    <img  src={PhotoProfile} alt="Photo Profile Rafael Nascimento" />
+                    <span>Rafael Nascimento</span>
+                    <div className="bar"></div>
+                </div>
+
             </div>
+            
+
         </div>
     )
 }

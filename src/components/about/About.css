@@ -1,0 +1,207 @@
+:root {
+    --first-color: #1d1c1c;
+    --second-color: rgb(209, 209, 209);
+}
+
+* {
+    list-style: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+/*---------- STARTING  SIZE 01 ----------*/
+@media (min-width: 768px){
+    .about {
+        background-color: var(--first-color);
+    }
+}
+
+@media (max-width: 767px){
+    .about {
+        background-color: #0a0a1a;
+        border: solid 1px var(--second-color);
+
+    }
+    .content {
+        display: flex;
+        justify-content: space-around;
+        height: 50vh;
+        margin-top: 20px;
+    }
+
+    .img-content {
+        height: 250px;
+       
+    }
+
+    .img-content img {
+        width: 18rem;
+    }
+
+    .aboutme {
+        width: 18rem;
+        height: 250px;
+        text-align: justify;
+        color: #fff;
+       
+    }
+
+    .aboutme h2 {
+        font-weight: 800;
+    }
+
+    .social-media {
+        display: flex;
+        height: 25px;
+        align-items: center;
+        justify-content: end;
+
+    }
+
+    .social-media-link {
+        display: flex;
+        border-radius: 5px;
+        margin: 3px;
+        background-color: #fff;
+
+    }
+
+    .social-media-link img {
+        width: 25px;
+    }
+
+    .stacks {
+        height: 50vh;
+
+    }
+
+    .stacks .title {
+        font-size: 1rem;
+        color: #fff;
+        text-transform: uppercase;
+
+    }
+
+    .tecnologies {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .imgTec {
+        width: 5rem;
+        margin: 5px;
+        padding: 5px;
+        border: solid 1px rgb(167, 165, 165);
+        border-radius: 10px 0px;
+    }
+
+    .stacks p {
+        color: #fff;
+
+    }
+    
+}
+
+/*-------------- MAXIMO 425 -------------- */
+
+@media (max-width: 425PX){
+    .about {
+        background-color: #0a0a1a;
+        border: solid 1px var(--second-color);
+
+    }
+    .content {
+        display: block;
+        justify-content: space-around;
+        height: 80vh;
+
+        padding: 10px;
+        margin-top: 20px;
+
+        border: solid 1px rgb(55, 0, 255);
+
+    }
+
+    .img-content {
+        height: 250px;
+       
+    }
+
+    .img-content img {
+        width: 18rem;
+    }
+
+    .aboutme {
+        width: 100%;
+        height: 200px;
+        padding: 0 15px;
+        text-align: justify;
+        color: #fff;
+        border: solid 1px rgb(3, 202, 69);
+
+
+    }
+
+    .aboutme h2 {
+        font-weight: 800;
+    }
+
+    .social-media {
+        display: flex;
+        height: 25px;
+        align-items: center;
+        justify-content: end;
+
+    }
+
+    .social-media-link {
+        display: flex;
+        border-radius: 5px;
+        margin: 3px;
+        background-color: #fff;
+
+
+    }
+
+    .social-media-link img {
+        width: 25px;
+    }
+
+    .stacks {
+        height: 60vh;
+        border: solid 1px red;
+
+    }
+
+    .stacks .title {
+        font-size: 1rem;
+        color: #fff;
+        text-transform: uppercase;
+
+    }
+
+    .tecnologies {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .imgTec {
+        width: 5rem;
+        margin: 5px;
+        padding: 5px;
+        border: solid 1px rgb(167, 165, 165);
+        border-radius: 10px 0px;
+    }
+
+    .stacks p {
+        color: #fff;
+        text-align: justify;
+
+        padding: 0 15px;
+
+    }
+    
+}
